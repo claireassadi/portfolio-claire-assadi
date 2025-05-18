@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -67,6 +72,25 @@ footer a {
     text-decoration: none;
     font-size: 1.2em;
     color: black;
+}
+
+.a_propos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.a_propos img{
+    margin: 20px;
+    object-fit: cover;
+    width: 20%;
+}
+
+.a_propos p{
+    width: 400px;
+    margin: 20px;
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
